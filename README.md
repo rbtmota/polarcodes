@@ -21,10 +21,13 @@ Currently this repository is work-in-progress.
 In particular, the following funcionalty is implemented, but comments are still are to be written and some features shall be tested.
 
  It has the following functions.
+ 
     - [x] **construct** — Polar codes are channel-dependent and thus they can be constructed in many ways.
     - [x] **encode** — implements encoding algorithm which complements informational bits with frozen ones and applies a polar transform to the resulting codeword.
     - [x] **decode** — up to now there are several decoders proposed for Polar codes which have different computational efficiency and error-correction ability.
-    This method simply call a specified decoder
+    
+This method simply call a specified decoder
+
         - [x] **Successive Cancellation (SC)** — a simple successive-cancellation decoder initially proposed by Arikan. 
         **Thorough testing is required**!
 - [x] **simulation** — an implemetation of monte carlo for case of AWGN channel combined with BPSK.
